@@ -1,0 +1,341 @@
+@font-face {
+  font-family: '8bitOperatorPlus-Bold';
+  src: url("../../assets/fonts/8bitOperatorPlus-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/8bitOperatorPlus-Bold.woff") format("woff"), url("../../assets/fonts/8bitOperatorPlus-Bold.ttf") format("truetype"), url("../../assets/fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JF-Dot-Shinonome-14-Regular';
+  src: url("../../assets/fonts/JF-Dot-Shinonome-14-Regular.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/JF-Dot-Shinonome-14-Regular.woff") format("woff"), url("../../assets/fonts/JF-Dot-Shinonome-14-Regular.ttf") format("truetype"), url("../../assets/fonts/JF-Dot-Shinonome-14-Regular.svg#JF-Dot-Shinonome-14-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+p{
+    margin:0;
+}
+
+* {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+
+
+body{
+    font-size:3.75vw;
+    font-family: "8bitOperatorPlus-Bold","JF-Dot-Shinonome-14-Regular", monospace;
+}
+.box{
+    width:100%;
+}
+@media screen and (min-width:640px){
+    body{
+        font-size:24px;
+    }
+    .box{
+        max-width:640px;
+    }
+}
+
+.ja{
+    font-family: "JF-Dot-Shinonome-14-Regular", monospace;
+
+}
+
+.ws_nowrap{
+    white-space: nowrap;
+}
+
+
+.btn{
+    display:inline-block;
+    padding:0.3rem;
+}
+.btn:hover{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    filter:grayscale(100%);
+
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    text-decoration: none;
+    color:#666;
+}
+/* box */
+.mainlistbox{
+    display:flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.mainlistitem{
+    word-break: break-all;
+    margin-left: 1rem;
+    margin-bottom:1rem;
+
+}
+
+.vm{
+    vertical-align: middle;
+}
+.tc{
+    text-align:center;
+}
+.tl{
+    text-align:left;
+}
+.tr{
+    text-align:right;
+}
+.m0a{
+    margin:0 auto;
+}
+.pd_1{
+    padding:1rem;
+
+}
+.pt_1{
+    padding-top:1rem;
+}
+.pb_1{
+    padding-bottom:1rem;
+}
+.pl_1{
+    padding-left:1rem;
+}
+.pl_2{
+    padding-left:2rem;
+}
+
+.mt_0_5{
+    margin-top:0.5rem;
+}
+.mt_1{
+    margin-top:1rem;
+}
+.mt_2{
+    margin-top:2rem;
+}
+.mt_4{
+    margin-top:4rem;
+}
+.mb_1{
+    margin-bottom:1rem;
+}
+.ml_1{
+    margin-left:1rem;
+}
+
+.lh_1{
+    line-height:1em;
+}
+.lh_1_5{
+    line-height:1.5em;
+}
+
+.w5{
+    width:5%;
+}
+.w8{
+    width:8%;
+}
+.w30{
+    width:30%;
+}
+
+.w40{
+    width:40%;
+}
+.w50{
+    width:50%;
+}
+.w60{
+    width:60%;
+}
+.w70{
+    width:70%;
+}
+.w80{
+    width:80%;
+}
+.w90{
+    width:90%;
+}
+.w100{
+    width:100%;
+}
+.fs_0_5{
+    font-size:0.5em;
+}
+.fs_0_7{
+    font-size:0.7em;
+}
+.fs_0_8{
+    font-size:0.8em;
+}
+.fs_2{
+    font-size:2em;
+}
+.fs_3{
+    font-size:3em;
+}
+.fs_4{
+    font-size:4em;
+}
+.fs_5{
+    font-size:5em;
+}
+.fs_6{
+    font-size:6em;
+}
+.fs_7{
+    font-size:7em;
+}
+.fs_8{
+    font-size:8em;
+}
+.fs_9{
+    font-size:9em;
+}
+.col_wh{
+    color:#fff;
+}
+.col_red{
+    color:#f00;
+}
+
+.bk_bk{
+    background-color:#000;
+}
+.bk_red{
+    background-color:#f00;
+}
+.bk_bl{
+    background-color:#00f;
+}
+.bk_grn{
+    background-color:#0f0;
+}
+.bk_pk{
+    background-color:#DE4A41;
+}
+
+.bk_mainlistitem{
+    background-size:100% auto;
+    width:100%;
+    height:100%;
+}
+.bbox_gry{
+    border:1px #666 solid;
+}
+
+/*menu*/
+.items_menu_list {
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  max-width:640px;
+}
+.items_menu_list li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ovf_hdn{
+    overflow: hidden;
+}
+
+
+input[type=email],textarea{
+        width:100%;
+  border        : 2px solid #666666;
+    padding:1rem;
+}
+
+textarea{
+    height:500px;
+    padding:1rem;
+
+}
+
+.no_disp{
+    display       : none;
+}
+input[type=submit] {
+  font-size     : 1em;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 1em 3em;   /* 余白       */
+  background    : #ffffff;     /* 背景色     */
+  color         : #666666;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #666666;    /* 枠の指定 */
+
+}
+input[type=submit]:hover {
+  color         : #ffffff;     /* 背景色     */
+  background    : #666666;     /* 文字色     */
+}
+.mainlistitem .cont{
+    display:none;
+    position:absolute;
+    top:33px;
+/*pointer-events: none;*/
+}
+
+.pos_rela{
+    position:relative;
+}
+.gs{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+.scale .sclitem{
+
+    transition: 1s;
+    -webkit-transition: 0.3s;
+}
+.scale .sclitem_hvr{
+      transform: scale(1.1);
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    filter:grayscale(100%);
+    opacity: 0.5;
+
+}
+@keyframes scale1_2 {
+    0%{transform: scale(1)}
+    100%{transform: scale(1.2)}
+}
+
+.buruburu {
+    display:inline-block;
+    animation: hurueru .1s  infinite;
+}
+
+
+@keyframes hurueru {
+/*
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(1px, 1px) rotateZ(0.5deg)}
+    50% {transform: translate(0px, 1px) rotateZ(0deg)}
+    75% {transform: translate(1px, 0px) rotateZ(-0.5deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+*/
+    0% {transform: translate(0px, 0px)}
+    25% {transform: translate(1px, 1px)}
+    50% {transform: translate(0px, 1px)}
+    75% {transform: translate(1px, 0px)}
+    100% {transform: translate(0px, 0px)}
+}
